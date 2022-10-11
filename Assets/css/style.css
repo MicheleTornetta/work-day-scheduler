@@ -5,14 +5,7 @@ body {
   display: flex;
 }
 
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
+/*header decoration*/
 
 .jumbotron {
   text-align: center;
@@ -23,6 +16,7 @@ textarea {
   flex-direction: column;
 }
 
+/*each row of the calendar */
 .rowBox {
   display: flex;
   flex-direction: row;
@@ -30,17 +24,17 @@ textarea {
   justify-content: center;
 }
 
+/*save buttone at the end of each row of the calendar */
 .saveBox {
   height: 40px;
   width: 65px;
-  /*margin: 20px 0px 20px 10px;*/
   padding: 10px 0px 10px 10px;
   justify-self: right;
   background-color: #000000;
   color: #ffffff;
   display: flex;
 }
-
+/*text input of each row of the calendar */
 .inputBox {
   height: 40px;
   width: 600px;
@@ -55,64 +49,32 @@ textarea {
   padding: 10px;
 }
 
+/*time slot on each row of the calendar */
 .timeBox {
   height: 40px;
   width: 100px;
   text-align: center;
   padding: 10px 0px 10px 10px;
   display: flex;
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px dashed #000000;
-}
-
-.description {
-  white-space: pre-wrap;
-}
-
-/*.time-block {
-  text-align: right;
-  border-radius: 15px;
-  font-weight: bold;
-
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
   border-top: 1px dashed #000000;
 }
 
+/*color of input box when past the hour*/
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: #adadad;
+  color: #333333;
 }
 
+/*color of input box at the present hour*/
 .present {
-  background-color: #ff6961;
+  background-color: #ac3b61;
   color: white;
 }
 
+/*color of input box when the hour is in future*/
 .future {
-  background-color: #77dd77;
+  background-color: #123c69;
   color: white;
-} */
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
 }

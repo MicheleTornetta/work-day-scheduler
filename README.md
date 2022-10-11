@@ -1,17 +1,40 @@
-# work-day-scheduler
+## Description
 
-    DONE--save events for each hour of the day 
-    DONE--feature dynamically updated HTML and CSS powered by jQuery
-    DONE--current day is displayed at the top of the calendar
-    DONE--scroll down I am presented with --timeblocks for standard business hours
---each timeblock is color coded to indicate whether it is in the past, present, or future
-    DONE--click into a timeblock enter an event
-    DONE--click the save button for that timeblock
-    DONE--event is saved in local storage
-    DONE--WHEN I refresh the page THEN the saved events persist
+The Work Day Scheduler is designed to show the user the current date and the hour of the day.  Each hour will be color coded so the user will know at a glance if the task was due in the past, or is currently due, or is due in the future.  Once the user hits save, the task is stored on their local storage.
 
---https://momentjs.com/
+## User Story
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+A user clicks starts their day by opening the Work day scheduler to plan out their day. From there they type in needed nots on the specific time
+
+## Acceptance Criteria
+
+When user opens the scheduler
+Then the user will see the current date at the top of the calendar.
+When the user scrolls down
+Then the user will see timeblocs for standard business hours.
+When the user sees the timeblocks
+Then the user will notice the timeblocks are color coded based on the current time of day.
+When the user sees an input field that is gray
+Then the user will know that timeblock is in the past.
+When the user sees an input field that is salmon
+Then the user will know that the timeblock is for the current hour.
+When the user sees an input timeblock that is blue
+Then the user will know that the timeblock is future tense.
+When the user types a note on a timeblock and hits save
+Then the note will be saved to the users local drive.
+
+## Assets
+
+The following image demonstrates the web application's appearance and functionality:
+
+![Here is a picture of the work day scheduler.](./assets/images/wdspic.png)
+
+## Repository & Live Link
+
+[Here is the repository link.] https://github.com/MicheleTornetta/work-day-scheduler
+
+[Here is the live link.] https://MicheleTornetta.github.io/work-day-scheduler
+
+
 
 
