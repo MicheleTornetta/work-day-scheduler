@@ -27,7 +27,7 @@ Then the note will be saved to the users local drive.
 
 The following image demonstrates the web application's appearance and functionality:
 
-![Here is a picture of the work day scheduler.](./assets/images/wdspic.png)
+![Here is a picture of the work day scheduler.](./Assets/images/wdspic.png)
 
 ## Repository & Live Link
 
