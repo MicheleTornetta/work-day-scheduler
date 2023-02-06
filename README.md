@@ -4,7 +4,7 @@ The Work Day Scheduler is designed to show the user the current date and the hou
 
 ## User Story
 
-A user clicks starts their day by opening the Work day scheduler to plan out their day. From there they type in needed nots on the specific time
+A user clicks starts their day by opening the Work day scheduler to plan out their day. From there they type in needed notes on the specific time
 
 ## Acceptance Criteria
 
